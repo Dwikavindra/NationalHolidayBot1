@@ -54,8 +54,8 @@ public class main extends ListenerAdapter {
         Date jumatagung = JumatAgung.getTime();
         Calendar CutiBersama = new GregorianCalendar(2021, 2, 12,9,00);
         Date cutibersama = CutiBersama.getTime();
-        Calendar TahunBaruHijriyah = new GregorianCalendar(2021, 8, 9);
-        Date tahunbaruhijriyah = TahunBaruHijriyah.getTime();
+//         Calendar TahunBaruHijriyah = new GregorianCalendar(2021, 8, 9);
+//         Date tahunbaruhijriyah = TahunBaruHijriyah.getTime();
         Calendar IsraMiraj = new GregorianCalendar(2021, 7, 10,9,00);
         Date isramiraj = IsraMiraj.getTime();
         Calendar HariBuruh = new GregorianCalendar(2021, 4, 1,9,00);
@@ -209,19 +209,19 @@ public class main extends ListenerAdapter {
 
             }
         },isramiraj,year_in_milliseconds);
-        Timer TAHUNBARUHIJRIAH = new Timer();
-        TAHUNBARUHIJRIAH.scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run(){
-                String message = "(THE BOT HAS A TENDANCY TO NOTIFY PASSED HOLIDAY PLEASE IGNORE IF THE EVENT HAS HAPPENED) Today is Tahun Baru Hijriah"+ "\n"+"Here are some facts about it https://id.wikipedia.org/wiki/Tahun_Baru_Hijriyah";
-                JDA jda = event.getJDA();
-                //explain the bot has a tendancy to write others already passed events
-                for (Guild guild : jda.getGuilds()) {
-                    guild.getDefaultChannel().sendMessage(message).queue();
-                }
+//         Timer TAHUNBARUHIJRIAH = new Timer();
+//         TAHUNBARUHIJRIAH.scheduleAtFixedRate(new TimerTask() {
+//             @Override
+//             public void run(){
+//                 String message = "(THE BOT HAS A TENDANCY TO NOTIFY PASSED HOLIDAY PLEASE IGNORE IF THE EVENT HAS HAPPENED) Today is Tahun Baru Hijriah"+ "\n"+"Here are some facts about it https://id.wikipedia.org/wiki/Tahun_Baru_Hijriyah";
+//                 JDA jda = event.getJDA();
+//                 //explain the bot has a tendancy to write others already passed events
+//                 for (Guild guild : jda.getGuilds()) {
+//                     guild.getDefaultChannel().sendMessage(message).queue();
+//                 }
 
-            }
-        },tahunbaruhijriyah,year_in_milliseconds);
+//             }
+//         },tahunbaruhijriyah,year_in_milliseconds);
         Timer HARIBURUH = new Timer();
         HARIBURUH.scheduleAtFixedRate(new TimerTask() {
             @Override

@@ -54,7 +54,7 @@ public class main extends ListenerAdapter {
         Date jumatagung = JumatAgung.getTime();
         Calendar CutiBersama = new GregorianCalendar(2021, 2, 12,9,00);
         Date cutibersama = CutiBersama.getTime();
-        Calendar TahunBaruHijriyah = new GregorianCalendar(2021, 7, 9,9,00);
+        Calendar TahunBaruHijriyah = new GregorianCalendar(2021, 8, 9,9,00);
         Date tahunbaruhijriyah = TahunBaruHijriyah.getTime();
         Calendar IsraMiraj = new GregorianCalendar(2021, 7, 10,9,00);
         Date isramiraj = IsraMiraj.getTime();

@@ -1,1 +1,1 @@
-worker: java -jar out/artifacts/NationalHolidayBot_jar/NationalHolidayBot.jar
+worker: java -jar NationalHolidayBot.jar

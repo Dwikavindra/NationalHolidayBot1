@@ -1,1 +1,1 @@
-worker: java -jar NationalHolidayBot.jar
+worker: java -jar target/NationalHolidayBot.jar
